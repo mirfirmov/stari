@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: stari-cli
+Version: 1.0.0
+Summary: A bilingual, console-only web security reconnaissance toolkit
+Author: STARI contributors
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Security
+Requires-Python: >=3.11
+Requires-Dist: httpx<1.0,>=0.27
+Requires-Dist: rich<16.0,>=13.7
+Requires-Dist: dnspython<3.0,>=2.6
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"
